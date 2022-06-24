@@ -1,0 +1,103 @@
+<div id='c'>
+  <div id='h'>
+    <div id='e1'></div>
+    <div id='e2'></div>
+    <div id='k1'></div>
+    <div id='k2'></div>
+  </div>
+  <div id='j'>
+    <div id='j1'></div>
+    <div id='j2'></div>
+  </div>
+</div>
+  
+  <style>
+  
+  body{
+  background:#191919
+  }
+  
+  #k1,#k2{
+  width:9px;
+  height:11px;
+  background:#000;
+  position:absolute;
+  border:5px solid #fe5f55;
+  top:-3;
+  border-radius:80% 80% 0 0
+  }
+  
+  #k1{
+  transform:rotate(40deg);
+  left:98
+  }
+  
+  #k2{
+  transform:rotate(-40deg);
+  right:98
+  }
+  
+  #c{
+  margin-top:90px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center
+  }
+  
+  #h{
+  width:130px;
+  height:130px;
+  background:#fe5f55;
+  border-radius:60px 60px 0 0;
+  display:flex;
+  justify-content:space-between;
+  transform:translateY(-15px);
+  z-index:-1
+  }
+  
+  #e1,#e2{
+  width:10px;
+  height:10px;
+  background:#000;
+  border-radius:50%;
+  margin:50 0 0 0
+  }
+  
+  #e1{
+  margin-left:25px
+  }
+  
+  #e2{
+  margin-right:25px
+  }
+  
+  #j{
+  width:150px;
+  height:100px;
+  background:#a64942;
+  margin-top:-75px;
+  border-radius:73px 73px 57px 57px;
+  display:flex;
+  justify-content:space-between
+  }
+  
+  #j1,#j2{
+  margin-top:25px;
+  width:30px;
+  height:20px;
+  background:#000;
+  border-radius:80%
+  }
+  
+  #j1{
+  transform:rotate(-45deg);
+  margin-left:20px
+  }
+  
+  #j2{
+  transform:rotate(45deg);
+  margin-right:20px
+  }
+  
+  </style>
